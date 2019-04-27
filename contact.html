@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="modal.js"></script>
+    </head>
+    <body>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Contact</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Contact Me</h2>
+      <p>Required fields *</p>
+    </div>
+    <div class="modal-body">
+            <form action="https://formspree.io/c.raymondchen@gmail.com" method="POST">
+                <label>
+                        <span class="small">First Name *</span>
+                    </label>
+                <input type="text" name="name" required>
+                <label>
+                        <span class="small">Last Name *</span>
+                    </label>
+                <input type="text" name="name" required>
+                    <label>
+                        <span class="small">Email Address *</span>
+                    </label>
+                <input type="text" name="email" required>
+                    <label>
+                        <span class="small">Phone Number</span>
+                    </label>
+                <input type="text" name="phone">
+                <textarea id="message-area" name="message" rows="6" cols="25"></textarea>
+                <button id="send" type="submit" value="Send">Send</button>                
+              </form>   
+                        
+    </div>
+  </div>
+
+</div> 
+
+        
+
+        <script src="" async defer></script>
+    </body>
+</html>
