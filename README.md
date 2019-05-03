@@ -12,11 +12,12 @@ The HTML is simple and only contains a __form tag__ along with the code for the 
 The only thing that needs to be edited in the code is to replace the code with your own email address: 
 
          <form action="https://formspree.io/(YOUREMAIL@WEBSITE.COM)" method="POST">  
+         
 ---
 ### CSS
---- 
 
-The CSS contains styling for the modal, form and buttons. This is just for demo purposes and is not necessary for functionality of the form.  
+The CSS contains styling for the modal, form and buttons. This is just for demo purposes and is not necessary for functionality of the form.    
+
 ---  
 ### Javascript  
 
