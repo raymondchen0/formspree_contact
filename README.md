@@ -20,6 +20,6 @@ The CSS contains styling for the modal, form and buttons. This is just for demo 
 
 ### Javascript  
 ---  
-The javascript contains code for the modal for the contact form. It allows for the closing of the modal by clicking the __(x)__, clicking __off__ the the form and by pressing the __ESC__ key.
+The javascript contains code for the modal for the contact form. It allows for the closing of the modal by clicking the __(x)__, clicking __off__ the form and by pressing the __ESC__ key.
 
 
