@@ -5,7 +5,7 @@ For more information: [Formspree Website](https://formspree.io/)
 
 __AFTER THE FIRST NEW FORM IS SENT YOU MUST ACTIVATE IT TO BEGIN USING IT BY CLICKING THE LINK IN THE EMAIL THAT FORMSPREE SENT TO YOU.__
 
-#### HTML  
+### HTML  
 ---
 
 The HTML is simple and only contains a __form tag__ along with the code for the optional modal.  
@@ -13,7 +13,7 @@ The only thing that needs to be edited in the code is to replace the code with y
 
          <form action="https://formspree.io/(YOUREMAIL@WEBSITE.COM)" method="POST">  
 
-#### CSS
+### CSS
 ---  
 
 The CSS contains styling for the modal, form and buttons. This is just for demo purposes and is not necessary for functionality of the form.  
